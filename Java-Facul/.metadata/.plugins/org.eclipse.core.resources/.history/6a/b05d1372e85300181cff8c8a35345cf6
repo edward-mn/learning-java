@@ -1,0 +1,71 @@
+import java.util.Scanner;
+
+
+public class TClube implements IEsporte,IModalidade {
+	private String AnEsporte,ACampeao,AModalidade,APatrocinio;
+	@Override
+	public void setNomeModalidade(String Modalidade) {
+		this.AModalidade = Modalidade;
+	}
+
+	@Override
+	public void setNomePatrocinio(String Patrocinio) {
+		this.APatrocinio = Patrocinio;
+	}
+
+	@Override
+	public String getNomeModalidade() {
+		return this.AModalidade;
+	}
+
+	@Override
+	public String getNomePatrocinio() {
+		return this.APatrocinio;
+	}
+
+	@Override
+	public void setNomeEsporte(String Esporte) {
+		this.AnEsporte = Esporte;	
+	}
+
+	@Override
+	public void setNomeDeUmCampeao(String Campeao) {
+		this.ACampeao = ACampeao;	
+	}
+
+	@Override
+	public String getNomeEsporte() {
+		return this.AnEsporte;
+	}
+
+	@Override
+	public String getNomeDeUmCampeao() {
+		return this.ACampeao;
+	}
+	private void PedeDados() {
+		Scanner Leitor = new Scanner(System.in);
+		
+		System.out.println("Digite uma Modalidade: ");
+		this.setNomeModalidade(Leitor.nextLine());
+		
+		System.out.println("Digite um Patrocínio dessa Modalidade: ");
+		this.setNomePatrocinio(Leitor.nextLine());
+		
+		System.out.println("Digite um Esporte: ");
+		this.setNomeEsporte(Leitor.nextLine());
+		
+		System.out.println("Digite o nome de um Campeão desse Esporte: ");
+		this.setNomeDeUmCampeao(Leitor.nextLine());
+	}
+	private void MostraDados() {
+		System.out.println(this.getNomeModalidade());
+		System.out.println(this.getNomePatrocinio());
+		System.out.println(this.getNomeEsporte());
+		System.out.println(this.getNomeDeUmCampeao());
+	}
+	public static void main(String[] args) {
+		TClube Atleta = new TClube();
+		Atleta.PedeDados();
+		Atleta.MostraDados();
+	}
+}

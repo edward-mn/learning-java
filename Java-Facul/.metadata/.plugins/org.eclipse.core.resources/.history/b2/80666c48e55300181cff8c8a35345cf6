@@ -1,0 +1,11 @@
+
+public interface IEsporte {
+	public String NomeEsporte = "";
+	public String NomeModalidade = "";
+	
+	public void setNomeEsporte(String Esporte);
+	public void setNomeModalidade(String Modalidade);
+	
+	public String getNomeEsporte();
+	public String NomeModalidade();
+}

@@ -1,0 +1,17 @@
+
+public class TCelta implements IVeiculo{
+	private String motorzinho;
+	@Override
+	public void setMotor(String M) {
+		this.motorzinho = M;
+	}
+	@Override
+	public String getMotor() {
+		return this.motorzinho;
+	}
+	public static void main(String[] args) {
+		TCelta MyCeltaTunado = new TCelta();
+		MyCeltaTunado.setMotor("3.5");
+		System.out.println(MyCeltaTunado.getMotor());
+	}
+}

@@ -1,0 +1,5 @@
+
+public interface IMotorista {
+	public void setMotorista(String Driver);
+	public String getMotorista();
+}
