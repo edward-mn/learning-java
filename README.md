@@ -1,28 +1,21 @@
 # Learn Java - Backend
-<p align="center">
+  
 ![Edward][Badge] 
 [![github Licenses][License-badge]][License] 
 ![][Badge-Java] 
 ![][Badge-Backend] 
-![][Badge-IDE]
- </p>
+[![][Badge-IDE]][IDE-Link]
+ 
+Repository created for my learning on Backend using Java ☕
 
-
-Repository created for my learning on Web Development (HTML5, CSS3 and JavaScript)
-
-# My CodePen
-- Clique [**aqui**](https://codepen.io/edward-mn)
-
-# Courses
-- Curso Online para Desenvolvimento Web: [**Free Code Camp**](https://www.freecodecamp.org/learn)
-  - [X] Responsive Web Design Certification: [**Link**](https://www.freecodecamp.org/certification/edward-mn/responsive-web-design) :heavy_check_mark:
-  - [ ] JavaScript Algorithms and Data Structures Certification
-- [ ] Curso Web Design Completo: HTML5, CSS3 e JS + 5 Projetos: [**Link**](https://www.udemy.com/course/curso-web-design-fundamentos-aprenda-html-css-e-javascript/) :construction:
-- [ ] Apostila Learn Enough: [**Link**](https://www.learnenough.com/courses)
-- [ ] Curso programação Web(HTML5): [**Link**](https://www.youtube.com/watch?v=epDCjksKMok&list=PLHz_AreHm4dlAnJ_jJtV29RFxnPHDuk9o)
-- [ ] Curso programação Web(HTML5, CSS3 e JavaScript): [**Link**](https://www.youtube.com/watch?v=EiZbhsVY2Dk&list=PLwgL9IEA0PxUjbhob9UMdpVq12sGrjgU6)
-- [ ] Curso programação Web(JavaScript): [**Link**](https://www.youtube.com/watch?v=Ptbk2af68e8&list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1&index=4)
-
+# Studies
+- Curso em Vídeo: [**Site**](https://www.freecodecamp.org/learn)
+  - [X] Java - Básico: [**Link**](https://www.youtube.com/watch?v=sTX0UEplF54&list=RDCMUCrWvhVmt0Qac3HgsjQK62FQ&start_radio=1&rv=sTX0UEplF54) :heavy_check_mark:
+  - [ ] Java - POO: [**Link**]() 🚧
+- [ ] Livro: Aprenda Java: [**Link**]()
+- [ ] Apostila Learn Enough: [**Link**]()
+- [ ] Apostila Caelum: [**Link**]()
+- [ ] Apostila Learn Enough: [**Link**]()
 
 [License-badge]: https://img.shields.io/github/license/edward-mn/learn-web-development.svg
 [License]: https://opensource.org/licenses/MIT
@@ -30,3 +23,4 @@ Repository created for my learning on Web Development (HTML5, CSS3 and JavaScrip
 [Badge-Java]: https://img.shields.io/badge/Learning-Java-brown.svg
 [Badge-Backend]: https://img.shields.io/badge/From-Backend-black.svg
 [Badge-IDE]: https://img.shields.io/badge/IDE-IntelliJ-purple.svg
+[IDE-Link]: https://www.jetbrains.com/idea/download/
