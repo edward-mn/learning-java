@@ -12,9 +12,10 @@ Repository created for my learning on Backend using Java ☕
 - Curso em Vídeo: [**Site**](https://www.cursoemvideo.com/)
   - [X] Java - Básico: [**Link**](https://www.youtube.com/watch?v=sTX0UEplF54&list=RDCMUCrWvhVmt0Qac3HgsjQK62FQ&start_radio=1&rv=sTX0UEplF54) :heavy_check_mark:
   - [ ] Java - POO: [**Link**](https://www.youtube.com/playlist?list=PLHz_AreHm4dkqe2aR0tQK74m8SFe-aGsY) 🚧
-- [ ] Livro: Use a cabeça **Java**: [**Link**](https://g.co/kgs/YUwieF)
-- [ ] Apostila Caelum - Orientação a Objetos (Java): [**Link**](https://www.caelum.com.br/apostila-java-orientacao-objetos)
-- [ ] Apostila Caelum - Java para Desenvolvimento Web : [**Link**](https://www.caelum.com.br/apostila-java-web)
+- Reading
+  - [ ] Livro: Use a cabeça **Java**: [**Link**](https://g.co/kgs/YUwieF)
+  - [ ] Apostila Caelum - Orientação a Objetos (Java): [**Link**](https://www.caelum.com.br/apostila-java-orientacao-objetos)
+  - [ ] Apostila Caelum - Java para Desenvolvimento Web : [**Link**](https://www.caelum.com.br/apostila-java-web)
 
 [License-badge]: https://img.shields.io/github/license/edward-mn/learn-web-development.svg
 [License]: https://opensource.org/licenses/MIT
