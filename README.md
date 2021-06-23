@@ -9,9 +9,9 @@
 Repository created for my learning on Backend using Java ☕
 
 # Studies
-- Curso em Vídeo: [**Site**](https://www.cursoemvideo.com/)
+- [**Curso em Vídeo**](https://www.cursoemvideo.com/)
   - [X] Java - [Básico][Folder-Basic]: [**Curso**][Basic-Course] :heavy_check_mark:
-  - [ ] Java - [Básico][Folder-POO]: [**Curso**][POO-Course] 🚧
+  - [ ] Java - [POO][Folder-POO]: [**Curso**][POO-Course] 🚧
 
 
 - Reading
@@ -33,7 +33,7 @@ Repository created for my learning on Backend using Java ☕
 [Folder-POO]: /curso-video/POO/
 
 [Basic-Course]: https://www.youtube.com/watch?v=sTX0UEplF54&list=RDCMUCrWvhVmt0Qac3HgsjQK62FQ&start_radio=1&rv=sTX0UEplF54
-[POO-Course]: ttps://www.youtube.com/playlist?list=PLHz_AreHm4dkqe2aR0tQK74m8SFe-aGsY
+[POO-Course]: https://www.youtube.com/playlist?list=PLHz_AreHm4dkqe2aR0tQK74m8SFe-aGsY
 
 [Book-UseHead]: https://g.co/kgs/YUwieF
 [Caelum-POO]: https://www.caelum.com.br/apostila-java-orientacao-objetos
