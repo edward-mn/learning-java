@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
+        /*
         Caneta c1 = new Caneta();
         c1.modelo = "Governo";
         c1.cor = "Azul";
@@ -28,9 +29,9 @@ public class Main {
         System.out.println("---");
 
         Caneta_GSC c3 = new Caneta_GSC("Governim", "Orange", 0.5f);
-        /*c3.setModelo("BIC");
+        c3.setModelo("BIC");
         c3.setPonta(0.8f);
-        c3.status();*/
+        c3.status();
 
         System.out.println("---");
 
@@ -42,7 +43,7 @@ public class Main {
         edwardAccount.pagarMensalidade();
         edwardAccount.fecharConta();
 
-        /* Regra 3
+         Regra 3
         System.out.println("Regra de 3");
         Scanner insert = new Scanner(System.in);
         int firstReference = insert.nextInt();
@@ -63,6 +64,12 @@ public class Main {
             }
             System.out.printf("Resultado: %.2f", result);
         } while (option == 1 ^ option !=2);
-         */
+        */
+        ControleRemoto controleTv = new ControleRemoto();
+        controleTv.ligar();
+        controleTv.abrirMenu();
+        controleTv.play();
+        controleTv.ligarMudo();
+        controleTv.desligarMudo();
     }
 }
