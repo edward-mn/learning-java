@@ -21,7 +21,7 @@ Repository created for my learning on Backend using Java ☕
   
 [//]: # (Links bellow)
 
-[License-badge]: https://img.shields.io/github/license/edward-mn/learn-web-development.svg
+[License-badge]: https://img.shields.io/github/license/edward-mn/learning-java.svg
 [License]: https://opensource.org/licenses/MIT
 [Badge]: https://img.shields.io/badge/Courses-Edward-yellow.svg
 [Badge-Java]: https://img.shields.io/badge/Learning-Java-brown.svg
