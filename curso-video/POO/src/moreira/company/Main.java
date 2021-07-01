@@ -64,12 +64,28 @@ public class Main {
             }
             System.out.printf("Resultado: %.2f", result);
         } while (option == 1 ^ option !=2);
-        */
+
         ControleRemoto controleTv = new ControleRemoto();
         controleTv.ligar();
         controleTv.abrirMenu();
         controleTv.play();
         controleTv.ligarMudo();
-        controleTv.desligarMudo();
+        controleTv.desligarMudo();]
+
+         */
+
+        Lutador fighters[] = new Lutador[6];
+
+        fighters[0] = new Lutador("José", "BR", 75.4f, 30, 23,5, 2);
+        fighters[1] = new Lutador("Roger", "EUA", 86.2f, 37, 18,6, 1);
+        fighters[2] = new Lutador("Mack", "UK", 71.4f, 28, 40,1, 0);
+        fighters[3] = new Lutador("Uchen", "China", 92.3f, 35, 33,8, 4);
+        fighters[4] = new Lutador("Blockover", "Russia", 105.1f, 29, 27,10, 5);
+        fighters[5] = new Lutador("Ukurata", "Japão", 120.2f, 39, 5,22, 8);
+
+        for(Lutador fighter: fighters){
+            fighter.apresentar();
+            fighter.status();
+        }
     }
 }
