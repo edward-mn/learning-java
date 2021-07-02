@@ -57,7 +57,7 @@ public class Lutador {
         this.nacionalidade = nacionalidade;
     }
 
-    private String getCategoria() {
+    public String getCategoria() {
         return categoria;
     }
 

@@ -83,9 +83,14 @@ public class Main {
         fighters[4] = new Lutador("Blockover", "Russia", 105.1f, 29, 27,10, 5);
         fighters[5] = new Lutador("Ukurata", "Japão", 120.2f, 39, 5,22, 8);
 
+        System.out.println("Lutadores");
         for(Lutador fighter: fighters){
             fighter.apresentar();
             fighter.status();
         }
+
+        Luta UFC01 = new Luta();
+        UFC01.marcarLuta(fighters[1], fighters[3]);
+        UFC01.lutar();
     }
 }
