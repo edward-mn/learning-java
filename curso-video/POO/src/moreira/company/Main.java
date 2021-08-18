@@ -72,8 +72,6 @@ public class Main {
         controleTv.ligarMudo();
         controleTv.desligarMudo();]
 
-         */
-
         Lutador fighters[] = new Lutador[6];
 
         fighters[0] = new Lutador("José", "BR", 75.4f, 30, 23,5, 2);
@@ -92,5 +90,24 @@ public class Main {
         Luta UFC01 = new Luta();
         UFC01.marcarLuta(fighters[1], fighters[3]);
         UFC01.lutar();
+
+        */
+
+        Pessoa[] p = new Pessoa[3];
+        Livro[] l = new Livro[3];
+
+        p[0] = new Pessoa("Edward", "M", 21);
+        p[1] = new Pessoa("Fábio", "M", 38);
+        p[2] = new Pessoa("Ruti", "F", 55);
+
+        l[0] = new Livro("Senhor das Armas", "Fred", 355, p[0]);
+        l[1] = new Livro("Mente milionária", "Roger", 220, p[1]);
+        l[2] = new Livro("Quem roubou meu queijo", "Paulo", 300, p[2]);
+
+        l[0].abrir();
+        l[0].folhear(250);
+        for(var i=0; i < l.length; i++){
+            System.out.println(l[i].detalhes());
+        }
     }
 }
