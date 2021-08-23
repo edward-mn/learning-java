@@ -91,8 +91,6 @@ public class Main {
         UFC01.marcarLuta(fighters[1], fighters[3]);
         UFC01.lutar();
 
-        */
-
         Pessoa[] p = new Pessoa[3];
         Livro[] l = new Livro[3];
 
@@ -109,5 +107,33 @@ public class Main {
         for(var i=0; i < l.length; i++){
             System.out.println(l[i].detalhes());
         }
+
+         */
+        Humano p1 = new Humano();
+        Aluno p2 = new Aluno();
+        Professor p3 = new Professor();
+        Funcionario p4 = new Funcionario();
+
+        p1.setNome("Edward");
+        p2.setNome("Vagner");
+        p3.setNome("Roger");
+        p4.setNome("Hugo");
+
+        p1.setSexo("M");
+        p2.setIdade(23);
+
+        p2.setCurso("Informática");
+        p3.setSalario(2500.75f);
+        p4.setSetor("Estoque");
+
+        p3.receberAumento(500f);
+        p4.changStateWorking();
+        p2.cancelarMatricula();
+
+
+        p1.infos();
+        p2.infos();
+        p3.infos();
+        p4.infos();
     }
 }
