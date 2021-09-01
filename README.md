@@ -8,13 +8,13 @@
  
 Repository created for my learning on Backend using Java ☕
 
-# Studies
-- [**Curso em Vídeo**](https://www.cursoemvideo.com/)
+# Studies 
+- [**Curso em Vídeo 🎥**](https://www.cursoemvideo.com/)
   - [X] Java - [Básico][Folder-Basic]: [**Curso**][Basic-Course] :heavy_check_mark:
   - [ ] Java - [POO][Folder-POO]: [**Curso**][POO-Course] 🚧
 
 
-- Reading
+- Reading 📖
   - [ ] Livro: Use a cabeça **Java**: [**Link**][Book-UseHead]
   - [ ] Apostila Caelum - Orientação a Objetos (Java): [**Link**][Caelum-POO]
   - [ ] Apostila Caelum - Java para Desenvolvimento Web : [**Link**][Caelum-WEB]
