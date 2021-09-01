@@ -108,7 +108,7 @@ public class Main {
             System.out.println(l[i].detalhes());
         }
 
-         */
+
         Humano p1 = new Humano();
         Aluno p2 = new Aluno();
         Professor p3 = new Professor();
@@ -135,5 +135,29 @@ public class Main {
         p2.infos();
         p3.infos();
         p4.infos();
+
+        */
+
+        Visitante v1 = new Visitante();
+        v1.setNome("Jovem");
+        v1.setIdade(22);
+        v1.setSexo("M");
+        System.out.println(v1.toString());
+
+        Aluno_class11 a1 = new Aluno_class11();
+        a1.setNome("Ed");
+        a1.setMatricula(231);
+        a1.setCurso("Matemática");
+        a1.setIdade(18);
+        System.out.println(a1.toString());
+        a1.pagarMensalidade();
+
+        Bolsista b1 = new Bolsista();
+        b1.setMatricula(148);
+        b1.setNome("Vagner");
+        b1.setBolsa(789.52f);
+        b1.setSexo("M");
+        b1.pagarMensalidade();
+        System.out.println(b1.toString());
     }
 }
