@@ -158,8 +158,6 @@ public class Main {
         b1.pagarMensalidade();
         System.out.println(b1.toString());
 
-         */
-
         Mamifero m = new Mamifero();
         Reptil r = new Reptil();
         Ave a = new Ave();
@@ -177,6 +175,19 @@ public class Main {
         c.reagir("Olá");
         c.reagir(15,45);
         c.reagir(7,5.80f);
+
+         */
+
+        Video v[] = new Video[3];
+        v[0] = new Video("Aula 1 de POO");
+        v[1] = new Video("Aula 11 de HP");
+        v[2] = new Video("Aula 1 de Web");
+
+
+        Gafanhoto g[] = new Gafanhoto[2];
+        g[0] = new Gafanhoto("Edward","M", 25, "Edward.Java");
+        g[1] = new Gafanhoto("Bruna","F", 17, "Bruna.Jar");
+
 
     }
 }
