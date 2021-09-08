@@ -169,9 +169,14 @@ public class Main {
         Canguru k = new Canguru();
         Tartaruga t = new Tartaruga();
 
-        t.emitirSom();
-        t.alimentar();
-        t.locomover();
+        c.emitirSom();
+        c.alimentar();
+        c.locomover();
+
+        c.reagir(false);
+        c.reagir("Olá");
+        c.reagir(15,45);
+        c.reagir(7,5.80f);
 
     }
 }
