@@ -136,8 +136,6 @@ public class Main {
         p3.infos();
         p4.infos();
 
-        */
-
         Visitante v1 = new Visitante();
         v1.setNome("Jovem");
         v1.setIdade(22);
@@ -159,5 +157,21 @@ public class Main {
         b1.setSexo("M");
         b1.pagarMensalidade();
         System.out.println(b1.toString());
+
+         */
+
+        Mamifero m = new Mamifero();
+        Reptil r = new Reptil();
+        Ave a = new Ave();
+        Peixe p = new Peixe();
+
+        Cachorro c = new Cachorro();
+        Canguru k = new Canguru();
+        Tartaruga t = new Tartaruga();
+
+        t.emitirSom();
+        t.alimentar();
+        t.locomover();
+
     }
 }
