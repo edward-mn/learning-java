@@ -39,7 +39,10 @@ public class Video implements AcoesVideo{
   }
 
   public void setAvaliacao(Float avaliacao) {
-    this.avaliacao = avaliacao;
+    float nova;
+    nova = this.avaliacao + avaliacao / this.views;
+
+    this.avaliacao = nova;
   }
 
   public int getCurtidas() {

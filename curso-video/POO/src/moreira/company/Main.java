@@ -188,6 +188,13 @@ public class Main {
         g[0] = new Gafanhoto("Edward","M", 25, "Edward.Java");
         g[1] = new Gafanhoto("Bruna","F", 17, "Bruna.Jar");
 
+        Visulizacao vis[] = new Visulizacao[5];
+
+        vis[0] = new Visulizacao(g[1], v[0]);
+        vis[0].avaliar();
+
+        vis[1] = new Visulizacao(g[0], v[2]);
+        vis[0].avaliar(87f);
 
     }
 }
