@@ -11,7 +11,10 @@ Repository created for my learning on Backend using Java ☕
 # Studies 
 - [**Curso em Vídeo 🎥**](https://www.cursoemvideo.com/)
   - [X] Java - [Básico][Folder-Basic]: [**Curso**][Basic-Course] :heavy_check_mark:
-  - [ ] Java - [POO][Folder-POO]: [**Curso**][POO-Course] 🚧
+  - [X] Java - [POO][Folder-POO]: [**Curso**][POO-Course] :heavy_check_mark:
+  - [X] Java - [Java COMPLETO POO + Projetos][Folder-POO-Nelio]: [**Curso**][Udemy-Java-Nelio] 🚧
+  - 
+
 
 
 - Reading 📖
@@ -30,7 +33,8 @@ Repository created for my learning on Backend using Java ☕
 [IDE-Link]: https://www.jetbrains.com/idea/download/
 
 [Folder-Basic]: /curso-video/Básico/
-[Folder-POO]: /curso-video/POO/
+[Folder-POO]: /curso-video/POO/ 
+[Folder-POO-Nelio]: /udemy/java/
 
 [Basic-Course]: https://www.youtube.com/watch?v=sTX0UEplF54&list=RDCMUCrWvhVmt0Qac3HgsjQK62FQ&start_radio=1&rv=sTX0UEplF54
 [POO-Course]: https://www.youtube.com/playlist?list=PLHz_AreHm4dkqe2aR0tQK74m8SFe-aGsY
@@ -38,3 +42,6 @@ Repository created for my learning on Backend using Java ☕
 [Book-UseHead]: https://g.co/kgs/YUwieF
 [Caelum-POO]: https://www.caelum.com.br/apostila-java-orientacao-objetos
 [Caelum-WEB]: https://www.caelum.com.br/apostila-java-web
+
+
+[Udemy-Java-Nelio]: https://www.udemy.com/course/java-curso-completo/
