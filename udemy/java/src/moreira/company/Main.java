@@ -2,6 +2,7 @@ package moreira.company;
 
 import java.util.Arrays;
 import java.util.Locale;
+import java.util.Scanner;
 
 public class Main {
 
@@ -29,6 +30,16 @@ public class Main {
         );
 
         Locale.setDefault(Locale.US);
-        System.out.printf("US decimal point: %.3f", measure);
+        System.out.printf("US decimal point: %.3f\n", measure);
+
+        System.out.println("Digitando vários valores, usar espaço! S - I - D");
+        Scanner sc = new Scanner(System.in);
+        String x;
+        int y;
+        double z;
+        x = sc.next();
+        y = sc.nextInt();
+        z = sc.nextDouble();
+        System.out.printf("Dados digitados\n%s\n%d\n%f", x, y, z);
     }
 }
