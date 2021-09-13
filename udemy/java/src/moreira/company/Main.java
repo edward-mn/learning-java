@@ -41,5 +41,15 @@ public class Main {
         y = sc.nextInt();
         z = sc.nextDouble();
         System.out.printf("Dados digitados\n%s\n%d\n%f", x, y, z);
+
+        System.out.println("Lendo uma frase toda e outro tipo de dado");
+        String s1, s2, s3;
+        int n;
+        n = sc.nextInt();
+        sc.nextLine(); // Necessário, pois o nextLine vai consumir a linha vazia
+        s1 = sc.nextLine();
+        s2 = sc.nextLine();
+        s3 = sc.nextLine();
+        System.out.printf("Dados digitados\n%d\n%s\n%s\n%s", x, y, z);
     }
 }
