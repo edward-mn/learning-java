@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="introSwing">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Básico/introSwing/out/artifacts/introSwing_jar/introSwing.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

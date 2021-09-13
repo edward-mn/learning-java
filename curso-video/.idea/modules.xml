@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Básico/AppSwing/AppSwing.iml" filepath="$PROJECT_DIR$/Básico/AppSwing/AppSwing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/POO/POO.iml" filepath="$PROJECT_DIR$/POO/POO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Básico/TelaVetor/TelaVetor.iml" filepath="$PROJECT_DIR$/Básico/TelaVetor/TelaVetor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Básico/TiposPrimitivos/TiposPrimitivos.iml" filepath="$PROJECT_DIR$/Básico/TiposPrimitivos/TiposPrimitivos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/curso-video.iml" filepath="$PROJECT_DIR$/.idea/curso-video.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Básico/date/date.iml" filepath="$PROJECT_DIR$/Básico/date/date.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Básico/introSwing/introSwing.iml" filepath="$PROJECT_DIR$/Básico/introSwing/introSwing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Básico/operadoresAritmeticos/operadoresAritmeticos.iml" filepath="$PROJECT_DIR$/Básico/operadoresAritmeticos/operadoresAritmeticos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Básico/somaSwing/somaSwing.iml" filepath="$PROJECT_DIR$/Básico/somaSwing/somaSwing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Básico/startingPOO/startingPOO.iml" filepath="$PROJECT_DIR$/Básico/startingPOO/startingPOO.iml" />
+    </modules>
+  </component>
+</project>
