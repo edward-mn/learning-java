@@ -12,6 +12,7 @@ public class Mod1_Five {
     System.out.println("Activite V");
     int numberPeca1, qtdPeca1, numberPeca2, qtdPeca2;
     double valorPeca1, valorPeca2;
+
     numberPeca1 = sc.nextInt();
     qtdPeca1 = sc.nextInt();
     valorPeca1 = sc.nextDouble();

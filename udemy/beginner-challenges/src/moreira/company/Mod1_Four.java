@@ -9,9 +9,9 @@ public class Mod1_Four {
     Scanner sc = new Scanner(System.in);
 
     System.out.println("Activite IV");
-
     int id, horas;
     double valorHora;
+
     id = sc.nextInt();
     horas = sc.nextInt();
     valorHora = sc.nextDouble();

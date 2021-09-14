@@ -10,8 +10,8 @@ public class Mod1_Three {
     Scanner sc = new Scanner(System.in);
 
     System.out.println("Activite III");
-
     int n1, n2, n3, n4, result;
+
     n1 = sc.nextInt();
     n2 = sc.nextInt();
     n3 = sc.nextInt();
