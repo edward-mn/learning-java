@@ -3,7 +3,7 @@ package moreira.company;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Mod1_Tow {
+public class Mod1_Two {
 
   public static void main(String[] args) {
     Locale.setDefault(Locale.US); // Deve ser declarado antes do .in

@@ -2,7 +2,7 @@ package moreira.company;
 
 import java.util.Scanner;
 
-public class Mod2_Tow {
+public class Mod2_Two {
   public static void main(String[] args) {
     int n1;
 
