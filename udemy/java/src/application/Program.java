@@ -1,5 +1,7 @@
 package application;
 
+import entities.Triangle;
+
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -8,32 +10,28 @@ public class Program {
     Locale.setDefault(Locale.US);
     Scanner sc = new Scanner(System.in);
 
-    double xA, xB, xC, yA, yB, yC;
+    Triangle firstTri, secondTri, last;
+    firstTri = new Triangle();
+    secondTri = new Triangle();
+    last = new Triangle();
 
     System.out.println("enter the measures of triangle X:");
-    xA = sc.nextDouble();
-    xB = sc.nextDouble();
-    xC = sc.nextDouble();
+    firstTri.a = sc.nextDouble();
+    firstTri.b = sc.nextDouble();
+    firstTri.c = sc.nextDouble();
 
     System.out.println("enter the measures of triangle Y:");
-    yA = sc.nextDouble();
-    yB = sc.nextDouble();
-    yC = sc.nextDouble();
+    secondTri.a = sc.nextDouble();
+    secondTri.b = sc.nextDouble();
+    secondTri.c = sc.nextDouble();
 
-    double p = (xA + xB + xC) / 2.0;
-    double areaX = Math.sqrt(p * (p - xA) + (p - xB) * (p - xC));
-
-    p = (yA + yB + yC) / 2.0;
-    double areaY = Math.sqrt(p * (p - yA) + (p - yB) * (p - yC));
+    double areaX = firstTri.area();
+    double areaY = secondTri.area();
 
     System.out.printf("Triangle X area: %.4f%n", areaX);
     System.out.printf("Triangle Y area: %.4f%n", areaY);
 
-    if(areaX > areaY){
-      System.out.println("Larger area: X");
-    } else {
-      System.out.println("Larger area: Y");
-    }
+    System.out.println(last.bigger(areaX, areaY));
 
     sc.close();
   }
