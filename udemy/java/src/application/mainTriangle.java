@@ -5,8 +5,8 @@ import entities.Triangle;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Program {
-  public static void main(String[] args) {
+public class mainTriangle {
+  public static void mainTriangle(String[] args) {
     Locale.setDefault(Locale.US);
     Scanner sc = new Scanner(System.in);
 
