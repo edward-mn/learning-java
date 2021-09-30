@@ -19,7 +19,7 @@ public class mainProduct {
     System.out.print("Quantity in Stock: ");
     product.quantity = sc.nextInt();
 
-    System.out.println(product.name + ',' + product.price + ',' + product.quantity);
+    System.out.println(product.toString());
     sc.close();
   }
 }
