@@ -19,7 +19,13 @@ public class mainProduct {
     System.out.print("Quantity in Stock: ");
     product.quantity = sc.nextInt();
 
-    System.out.println(product.toString());
+    char resp;
+    do{
+      System.out.println("Adicionar no Estoque , Remover do Estoque");
+      product.wantContinue(sc.nextInt(), sc.nextInt());
+      resp = sc.next().charAt(0);
+    } while (resp != 'n');
+
     sc.close();
   }
 }
