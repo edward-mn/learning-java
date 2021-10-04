@@ -1,4 +1,4 @@
-package moreira.company;
+package others;
 
 import java.util.Arrays;
 import java.util.Locale;
