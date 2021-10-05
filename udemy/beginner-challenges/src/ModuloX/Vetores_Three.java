@@ -6,7 +6,7 @@ import Entities.Product;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Vetores_Tres {
+public class Vetores_Three {
   public static void main(String[] args) {
     Locale.setDefault(Locale.US);
     Scanner sc = new Scanner(System.in);
