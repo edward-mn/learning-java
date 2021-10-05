@@ -10,15 +10,6 @@ public class Hotel {
     this.numberRoom = numberRoom;
   }
 
-  @Override
-  public String toString() {
-    return "Hotel{" +
-        "name='" + name + '\'' +
-        ", email='" + email + '\'' +
-        ", numberRoom=" + numberRoom +
-        '}';
-  }
-
   public String getName() {
     return name;
   }
