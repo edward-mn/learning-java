@@ -2,8 +2,10 @@ package com.sping.codeblog.model;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.sun.istack.NotNull;
+import org.hibernate.validator.constraints.NotEmpty;
 
 import javax.persistence.*;
+import javax.validation.constraints.NotBlank;
 import java.time.LocalDate;
 
 @Entity
@@ -14,15 +16,18 @@ public class Post {
   @GeneratedValue(strategy = GenerationType.AUTO)
   private Long id;
 
+  @NotBlank
   @NotNull
   private String titulo;
 
+  @NotBlank
   @NotNull
   private String autor;
 
   @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd-MM-yyyy")
   private LocalDate data;
 
+  @NotBlank
   @NotNull
   @Lob
   private String texto;
