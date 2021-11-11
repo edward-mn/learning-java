@@ -9,15 +9,17 @@
 Repository created for my learning on Backend using Java ☕
 
 # Studies - JAVA ☕
-- [**Curso em Vídeo 🎥**](https://www.cursoemvideo.com/)
-  - [X] [Básico][Folder-Basic]: [**Curso**][Basic-Course] :heavy_check_mark:
-  - [X] [POO][Folder-POO]: [**Curso**][POO-Course] :heavy_check_mark:
-- [**Udemy 🈴**](https://www.udemy.com/)
-  - [ ] [Java COMPLETO POO + Projetos][Folder-POO-Nelio]: [**Curso**][Udemy-Java-Nelio] 🚧
-- [**Spring Boot 🍃**](https://spring.io/)
-  - [X] [Quick Start][Folder-Spring-Quick]: [**DEMO**][Spring-QuickStart] :heavy_check_mark:
-  - [ ] [Code Blog][Folder-Spring-Codeblog]: [**Curso**][Spring-Codeblog] 🚧
- 
+
+1. [**Curso em Vídeo 🎥**](https://www.cursoemvideo.com/)
+   - [X] [Básico][Folder-Basic]: [**Curso**][Basic-Course] :heavy_check_mark:
+   - [X] [POO][Folder-POO]: [**Curso**][POO-Course] :heavy_check_mark:
+2. [**Udemy 🈴**](https://www.udemy.com/)
+   - [ ] [Java COMPLETO POO + Projetos][Folder-POO-Nelio]: [**Curso**][Udemy-Java-Nelio] 🚧
+4. [**Spring Boot 🍃**](https://spring.io/)
+   - [X] [Quick Start][Folder-Spring-Quick]: [**DEMO**][Spring-QuickStart] :heavy_check_mark:
+   - [X] [Code Blog][Folder-Spring-Codeblog]: [**Curso**][Spring-Codeblog] :heavy_check_mark:
+      - [**App**][codeblog-APP] 👀
+   
 - Reading 📖
   - [ ] Livro: Use a cabeça **Java**: [**Link**][Book-UseHead]
   - [ ] Apostila Caelum - Orientação a Objetos (Java): [**Link**][Caelum-POO]
@@ -58,3 +60,6 @@ Repository created for my learning on Backend using Java ☕
 [Folder-POO-Nelio]: /udemy/java/
 [Folder-Spring-Quick]: /Spring-Boot/demo/
 [Folder-Spring-Codeblog]: /Spring-Boot/codeblog/
+
+<!-- Apps -->
+[codeblog-APP]: https://acodeblog.herokuapp.com/
