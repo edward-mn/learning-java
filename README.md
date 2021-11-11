@@ -19,6 +19,8 @@ Repository created for my learning on Backend using Java ☕
    - [X] [Quick Start][Folder-Spring-Quick]: [**DEMO**][Spring-QuickStart] :heavy_check_mark:
    - [X] [Code Blog][Folder-Spring-Codeblog]: [**Curso**][Spring-Codeblog] :heavy_check_mark:
       - [**App**][codeblog-APP] 👀
+   - [ ] [Events][Folder-Spring-EventsApp]: [**Curso**][Spring-EventsApp] 🚧
+   
    
 - Reading 📖
   - [ ] Livro: Use a cabeça **Java**: [**Link**][Book-UseHead]
@@ -47,6 +49,7 @@ Repository created for my learning on Backend using Java ☕
 
 [Spring-QuickStart]: https://spring.io/quickstart
 [Spring-Codeblog]: https://www.youtube.com/watch?v=UdJYuwnqL3I&list=PL8iIphQOyG-AdKMQWtt1bqdVm8QUnX7_S
+[Spring-EventsApp]: https://www.youtube.com/watch?v=OHn1jLHGptw&list=RDCMUC2WbG8UgpPaLcFSNJYwtPow&start_radio=1&rv=OHn1jLHGptw&t=23
 
 <!-- Reading  --> 
 
@@ -60,6 +63,7 @@ Repository created for my learning on Backend using Java ☕
 [Folder-POO-Nelio]: /udemy/java/
 [Folder-Spring-Quick]: /Spring-Boot/demo/
 [Folder-Spring-Codeblog]: /Spring-Boot/codeblog/
+[Folder-Spring-EventsApp]: /Spring-Boot/eventsapp/
 
 <!-- Apps -->
 [codeblog-APP]: https://acodeblog.herokuapp.com/
