@@ -1,11 +1,36 @@
-package com.eventoapp.eventoapp.model;
+package com.spring.eventsapp.model;
 
-public class Evento {
+import com.sun.istack.NotNull;
 
+import javax.persistence.*;
+
+@Entity
+@Table(name = "TB_Events")
+public class Event {
+
+  @Id
+  @GeneratedValue(strategy = GenerationType.AUTO)
+  private long codigo;
+
+  @NotNull
   private String nome;
+
+  @NotNull
   private String local;
+
+  @NotNull
   private String data;
+
+  @NotNull
   private String horario;
+
+  public long getCodigo() {
+    return codigo;
+  }
+
+  public void setCodigo(long codigo) {
+    this.codigo = codigo;
+  }
 
   public String getNome() {
     return nome;
