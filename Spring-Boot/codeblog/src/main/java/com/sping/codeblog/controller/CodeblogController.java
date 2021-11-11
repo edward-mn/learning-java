@@ -22,6 +22,11 @@ public class CodeblogController {
   @Autowired
   CodeblogService codeblogService;
 
+  @RequestMapping(value = "/")
+  public ModelAndView index(){
+    return getPosts();
+  }
+
   @RequestMapping(value = "/posts", method = RequestMethod.GET)
   public ModelAndView getPosts(){
     ModelAndView mv = new ModelAndView("posts");

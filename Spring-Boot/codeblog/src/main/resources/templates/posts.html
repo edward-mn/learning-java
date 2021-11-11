@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://thymeleaf.org">
+<html lang="pt" xmlns:th="http://thymeleaf.org">
     <head>
         <meta charset="UTF-8">
         <title> Code Blog </title>
@@ -8,10 +8,10 @@
     <body>
         <header>
             <nav class="navbar navbar-light bg-light">
-                <span class="navbar-brand mb-0 h1" style="font-weight: bold;">
-                    MyCodeBlog
-                </span>
-                <a href="/newpost" class="btn btn-primary" role="button">
+                        <span class="navbar-brand mb-0 h1" style="font-weight: bold; margin: 0 20px;">
+                            My Codeblog
+                        </span>
+                <a href="/newpost" class="btn btn-primary" role="button" style="margin: 0 15px;">
                     Novo Post
                 </a>
             </nav>
@@ -27,7 +27,7 @@
 
                 <div class="card shadow-sm bg-white rounded" style="margin-top: 30px;" th:each="post: ${posts}">
                     <div class="card-body">
-                        <p class="card-subtitle mb-2 text-muted" style="font-size: 0.8rem;">
+                        <p class="card-subtitle mb-2 text-muted d-flex justify-content-between" style="font-size: 0.8rem;">
                             <span th:text="${post.autor}"></span>
                             <span th:text="${post.data}"></span>
                         </p>
