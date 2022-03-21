@@ -53,6 +53,16 @@
                         </p>
                     </section>
                 </article>
+
+
+<!--                <a th:href="${(#mvc.url('CC#getPosts').arg(0, post.id)).build()}" class="btn btn-outline-danger" role="button" style="margin-top: 30px; float: right">-->
+<!--                    Excluir post-->
+<!--                </a>-->
+
+                <a class="btn btn-outline-danger" role="button" style="margin-top: 30px; float: right" th:href="${(#mvc.url('CC#deletPost').arg(0, post.id)).build()}">
+                        Excluir
+                </a>
+
             </div>
         </main>
     </body>

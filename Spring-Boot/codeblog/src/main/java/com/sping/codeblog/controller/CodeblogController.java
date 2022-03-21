@@ -5,10 +5,7 @@ import com.sping.codeblog.service.CodeblogService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;
-import org.springframework.validation.annotation.Validated;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
@@ -56,6 +53,13 @@ public class CodeblogController {
     }
     post.setData(LocalDate.now());
     codeblogService.save(post);
+    return "redirect:/posts";
+  }
+
+  @RequestMapping("/deletPost")
+  public String deletPost(long id){
+    Post post = codeblogService.findById(id);
+    codeblogService.delete(post.getId());
     return "redirect:/posts";
   }
 }
