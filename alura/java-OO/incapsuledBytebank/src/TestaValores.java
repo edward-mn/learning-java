@@ -7,6 +7,6 @@ public class TestaValores {
 
     Conta conta2 = new Conta(3125, 11002255);
 
-    System.out.println(Conta.getTotal());
+    System.out.println("Total contas: " + Conta.getTotal());
   }
 }
