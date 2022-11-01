@@ -1,10 +1,10 @@
 public class TestaContaSemCliente {
   public static void main(String[] args) {
-    Conta contaTeste = new Conta();
+    Conta contaTeste = new Conta(654, 231);
     System.out.println(contaTeste.getSaldo());
 
-    contaTeste.titular = new Cliente();
-    contaTeste.titular.nome = "Vagner";
-    System.out.println(contaTeste.titular.nome);
+    contaTeste.setTitular(new Cliente());
+    // contaTeste.setTitular(cli.setTitular("Vagner"));
+    System.out.println(contaTeste.getTitular());
   }
 }
