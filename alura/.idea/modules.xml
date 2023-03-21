@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/alura.iml" filepath="$PROJECT_DIR$/.idea/alura.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-JRE-JDK/basic-sintax/basic-sintax.iml" filepath="$PROJECT_DIR$/java-JRE-JDK/basic-sintax/basic-sintax.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-OO/betterBytebank/betterBytebank.iml" filepath="$PROJECT_DIR$/java-OO/betterBytebank/betterBytebank.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-OO/bytebank/bytebank.iml" filepath="$PROJECT_DIR$/java-OO/bytebank/bytebank.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-POLYMORPHISM/bytebank-conta/bytebank-conta.iml" filepath="$PROJECT_DIR$/java-POLYMORPHISM/bytebank-conta/bytebank-conta.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-POLYMORPHISM/bytebank-herdado/bytebank-herdado.iml" filepath="$PROJECT_DIR$/java-POLYMORPHISM/bytebank-herdado/bytebank-herdado.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-OO/incapsuledBytebank/incapsuledBytebank.iml" filepath="$PROJECT_DIR$/java-OO/incapsuledBytebank/incapsuledBytebank.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-JRE-JDK/java-JRE-JDK.iml" filepath="$PROJECT_DIR$/java-JRE-JDK/java-JRE-JDK.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-exceptions/java-exceptions.iml" filepath="$PROJECT_DIR$/java-exceptions/java-exceptions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-lang/java-lang.iml" filepath="$PROJECT_DIR$/java-lang/java-lang.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,3 +1,5 @@
+package bytebank.banco.modelo;
+
 public class LifeInsurance implements Tributable {
 
   @Override

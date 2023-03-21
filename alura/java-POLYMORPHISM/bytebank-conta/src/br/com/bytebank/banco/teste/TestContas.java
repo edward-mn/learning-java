@@ -1,3 +1,9 @@
+package br.com.bytebank.banco.teste;
+
+import modelo.ContaCorrente; // FQN -> Full Qualified Name
+import modelo.ContaPoupanca;
+import modelo.SaldoInsuficienteException;
+
 public class TestContas {
   public static void main(String[] args) throws SaldoInsuficienteException {
     ContaCorrente cc = new ContaCorrente(111, 222);

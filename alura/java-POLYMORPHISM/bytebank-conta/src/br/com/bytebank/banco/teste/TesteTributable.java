@@ -1,3 +1,9 @@
+package br.com.bytebank.banco.teste;
+
+import modelo.ContaCorrente;
+import modelo.LifeInsurance;
+import modelo.TributeCauculator;
+
 public class TesteTributable {
   public static void main(String[] args) {
     ContaCorrente cc = new ContaCorrente(123, 258);

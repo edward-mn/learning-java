@@ -1,3 +1,8 @@
+package bytebank.banco.teste;
+
+import bytebank.banco.modelo.Conta;
+import bytebank.banco.modelo.ContaCorrente;
+
 public class TestSaca {
   public static void main(String[] args) {
     Conta conta = new ContaCorrente(123, 321);

@@ -1,3 +1,5 @@
+package bytebank.banco.modelo;
+
 public abstract class Conta {
   private double saldo;
   private int agencia;
@@ -23,6 +25,11 @@ public abstract class Conta {
     System.out
         .println("Estou criando uma conta! - " + this.agencia + "|" + this.numero + "\nTotal de contas: " + total);
   };
+
+  @Override
+  public String toString() {
+    return "Numero: " + this.numero + ", Agencia: " + this.agencia;
+  }
 
   public abstract void deposita(double valor);
 
