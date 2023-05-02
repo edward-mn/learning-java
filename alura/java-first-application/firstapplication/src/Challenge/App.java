@@ -51,8 +51,5 @@ public class App {
 
         System.out.println("We're closing your account details\n" + myAccount.toString());
         reader.close();
-
-
-
     }
 }
