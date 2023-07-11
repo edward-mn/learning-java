@@ -1,0 +1,26 @@
+[
+  {
+    "Name": "Matrix",
+    "YearReleased": 1993,
+    "IncludedPlan": false,
+    "Rating": 0.0,
+    "TotalRating": 0,
+    "MovieInMinutes": 60
+  },
+  {
+    "Name": "Garfield",
+    "YearReleased": 2004,
+    "IncludedPlan": false,
+    "Rating": 0.0,
+    "TotalRating": 0,
+    "MovieInMinutes": 80
+  },
+  {
+    "Name": "Dogville",
+    "YearReleased": 2003,
+    "IncludedPlan": false,
+    "Rating": 0.0,
+    "TotalRating": 0,
+    "MovieInMinutes": 17
+  }
+]
