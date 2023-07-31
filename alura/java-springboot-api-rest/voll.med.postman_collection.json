@@ -1,0 +1,147 @@
+{
+	"info": {
+		"_postman_id": "08eb417a-a4a6-47f1-a135-a1f3ef75f2e7",
+		"name": "Voll.med",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "15286462"
+	},
+	"item": [
+		{
+			"name": "/medicos",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"nome\": \"Vagner\",\n\"email\": \"vagner.azevedo@voll.med\",\n\"crm\": \"123401\",\n\"telefone\": \"619999998888\",\n\"especialidade\": \"CARDIOLOGIA\",\n\"endereco\": {\n    \"logradouro\": \"rua 1\",\n    \"bairro\": \"bairro\",\n    \"cep\": \"12345678\",\n    \"cidade\": \"Brasilia\",\n    \"uf\": \"DF\"\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{local}}/medicos",
+					"host": [
+						"{{local}}"
+					],
+					"path": [
+						"medicos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/medicos",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": 6,\n    \"nome\": \"Edward Moreira\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{local}}/medicos",
+					"host": [
+						"{{local}}"
+					],
+					"path": [
+						"medicos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/medicos - Pagination",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{local}}/medicos?size=1&page=1",
+					"host": [
+						"{{local}}"
+					],
+					"path": [
+						"medicos"
+					],
+					"query": [
+						{
+							"key": "size",
+							"value": "1"
+						},
+						{
+							"key": "page",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/medicos - Ordanation",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{local}}/medicos?sorte=name",
+					"host": [
+						"{{local}}"
+					],
+					"path": [
+						"medicos"
+					],
+					"query": [
+						{
+							"key": "sorte",
+							"value": "name"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/medicos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{local}}/medicos",
+					"host": [
+						"{{local}}"
+					],
+					"path": [
+						"medicos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/medicos",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{local}}/medicos/9",
+					"host": [
+						"{{local}}"
+					],
+					"path": [
+						"medicos",
+						"9"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
