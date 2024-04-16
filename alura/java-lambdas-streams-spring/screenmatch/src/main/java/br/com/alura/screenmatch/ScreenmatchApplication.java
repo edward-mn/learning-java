@@ -1,5 +1,6 @@
 package br.com.alura.screenmatch;
 
+import br.com.alura.screenmatch.principal.Principal;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -13,6 +14,16 @@ public class ScreenmatchApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		System.out.println("First project Spring without WEB");
+		Principal main = new Principal();
+		main.exibeMenu();
+
+//		List<DadosTemporada> temporadas = new ArrayList<>();
+//
+//		for (int i = 1; i <= dados.totalTemporadas(); i++){
+//			json = consumoAPI.obterDados("https://www.omdbapi.com/?t=gilmore+girls&season=" + i + "&apikey=6585022c");
+//			DadosTemporada dadosTemporada = conversor.obterdados(json, DadosTemporada.class);
+//			temporadas.add(dadosTemporada);
+//		}
+//		temporadas.forEach(System.out::println);
 	}
 }
