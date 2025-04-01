@@ -1,0 +1,5 @@
+# Created at 2025-01-10T17:24:12.207
+Boot Manifest-JAR contains absolute paths in classpath 'D:\My Documents\Documents\Dev\learning-java\alura\java-springdata-jpa\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+
